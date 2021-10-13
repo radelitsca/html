@@ -1,0 +1,29 @@
+
+body, html {
+    scroll-behavior: smooth;
+}
+body {
+    background: bisque;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: mediumvioletred;
+}
+.bright {
+    color: red;
+}
+.slight {
+    color: darkred;
+}
+img {
+    border: 10px solid pink;
+}
+.target {
+    text-align: center;
+}
+.description {
+    text-align: justify;
+}
