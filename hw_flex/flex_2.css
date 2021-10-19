@@ -1,0 +1,32 @@
+.a {
+    height: 100px;
+    width: 800px;
+    background: blue;
+}
+.b {
+    height: 80px;
+    width: 800px;
+    background: cornflowerblue;
+}
+.c {
+    height: 100px;
+    width: 800px;
+    background: cornflowerblue;
+}
+.father {
+    display: flex;
+    width: 800px;
+    height: 350px;
+}
+.son_1 {
+    flex-grow: 3;
+    background: aquamarine;
+}
+.son_2 {
+    flex-grow: 1;
+    background: aqua;
+}
+.b1 {
+    border: .5px solid white;
+    box-sizing: border-box;
+}
