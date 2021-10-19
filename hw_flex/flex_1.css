@@ -1,0 +1,26 @@
+.a {
+    height: 200px;
+    width: 800px;
+    background: coral;
+}
+
+.target {
+    display: flex;
+    width: 800px;
+    column-gap: 10px;
+}
+
+.d {
+    margin-top: 10px;
+    height: 400px;
+}
+
+.b {
+    flex-grow: 3;
+    background: cornflowerblue;
+}
+
+.c {
+    flex-grow: 1;
+    background: blue;
+}
