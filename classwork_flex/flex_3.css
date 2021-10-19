@@ -1,0 +1,42 @@
+.a {
+    height: 100px;
+    width: 500px;
+    background: gray;
+}
+
+.father_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.father_3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b {
+    margin-top: 10px;
+    width: 330px;
+    height: 100px;
+    background: cornflowerblue;
+}
+
+.c {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background: aqua;
+}
+
+.father_1 {
+    display: flex;
+    width: 500px;
+}
+
+.f {
+    width: 160px;
+    height: 210px;
+    background: chartreuse;
+    margin-left: 10px;
+    margin-top: 10px;
+}
