@@ -1,0 +1,26 @@
+.d {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    column-gap: 10px;
+}
+
+.a {
+    flex-grow: 1;
+    background: chartreuse;
+    height: 300px;
+}
+
+.c {
+    width: 500px;
+    height: 200px;
+    background: coral;
+    margin-top: 10px;
+}
+
+.b {
+    flex-grow: 1;
+    background: cornflowerblue;
+    height: 150px;
+    margin-top: 10px;
+}
