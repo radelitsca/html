@@ -1,0 +1,25 @@
+.header {
+    height: 200px;
+    width: 600px;
+    background: blue;
+    margin-bottom: 10px;
+}
+.father {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+.son {
+    height: 200px;
+    width: 180px;
+    background: blueviolet;
+}
+.header_1 {
+    height: 300px;
+    width: 600px;
+    background: blue;
+    margin-top: 10px;
+}
+.t {
+    text-align: center;
+}
