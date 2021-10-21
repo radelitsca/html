@@ -23,19 +23,21 @@ body {
 }
 
 .secondblock {
-    height: 550px;
-    width: 1300px;
+    height: 90%;
+    width: 90%;
     flex-direction: column;
+    align-items: center;
 }
 
 .blocksinside {
-    height: 400px;
-    width: 1300px;
+    height: 70%;
+    width: 100%;
+    justify-content: center;
 }
 
 .blocksinside > div {
-    flex-grow: 1;
-    height: 400px;
+    width: 25%;
+    height: 100%;
     flex-direction: column;
 }
 
@@ -44,18 +46,12 @@ body {
 }
 
 .square {
-    width: 250px;
-    height: 250px;
-    margin-left: 30px;
-    margin-right: 10px;
-    box-sizing: border-box;
+    width: 85%;
+    height: 60%;
 }
 
-.x_center {
+.center {
     justify-content: center;
-}
-
-.y_center {
     align-items: center;
 }
 
