@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW html 4</title>
+    <style>
+        .upperblock {
+            height: 200px;
+        }
+        .bg {
+            background: blue;
+        }
+        .w800 {
+            width: 800px;
+        }
+        .lowerblock {
+            display: flex;
+            column-gap: 10px;
+        }
+        .h400 {
+            height: 400px;
+        }
+        .lowerblock > div {
+            margin-top: 10px;
+        }
+        .lowerblock__left {
+            flex-grow: 3;
+        }
+        .lowerblock__right {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="upperblock bg w800"></div>
+<div class="lowerblock w800 h400">
+    <div class="lowerblock__left bg h400"></div>
+    <div class="lowerblock__right bg h400"></div>
+</div>
+</body>
+</html>
