@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW4_2_2</title>
+    <style>
+        .h300 {
+            height: 300px;
+            width: 800px;
+        }
+
+        .h600 {
+            height: 600px;
+            width: 800px;
+        }
+
+        .bg {
+            background: blue;
+        }
+
+        .middlecontainer {
+            display: flex;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            justify-content: space-between;
+            column-gap: 10px;
+        }
+
+        .middlecontainer > div {
+            flex-grow: 1;
+            background: darkblue;
+        }
+    </style>
+</head>
+<body>
+<div class="h300 bg"></div>
+<div class="h300 middlecontainer">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="h600 bg"></div>
+</body>
+</html>
