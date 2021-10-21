@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW4_2_1</title>
+    <style>
+        .uplowblock {
+            height: 100px;
+            background: mediumvioletred;
+        }
+
+        .w800 {
+            width: 600px;
+        }
+
+        .middleblock {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .h400 {
+            height: 400px;
+        }
+        .display {
+            display: flex;
+        }
+        .middleblock__left {
+            background: orange;
+            flex-grow: 1;
+        }
+        .middleblock__right {
+            flex-grow: 3;
+            flex-direction: column;
+            margin-left: 10px;
+            box-sizing: border-box;
+            row-gap: 10px;
+        }
+        .middleblock__right > div {
+            flex-grow: 1;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+<div class="uplowblock w800"></div>
+<div class="middleblock w800 h400 display">
+    <div class="middleblock__left h400"></div>
+    <div class="middleblock__right h400 display">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<div class="uplowblock w800"></div>
+</body>
+</html>
