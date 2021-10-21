@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw4_2</title>
+    <style>
+        .w800 {
+            width: 800px;
+        }
+
+        .h100 {
+            height: 100px;
+            background: darkblue;
+        }
+
+        .h150 {
+            height: 150px;
+            background: dodgerblue;
+        }
+
+        .h400 {
+            height: 400px;
+            display: flex;
+        }
+
+        .leftblock {
+            flex-grow: 3;
+            background: darkslateblue;
+        }
+
+        .rightblock {
+            flex-grow: 1;
+            background: cadetblue;
+        }
+    </style>
+</head>
+<body>
+<div class="w800 h150"></div>
+<div class="w800 h100"></div>
+<div class="w800 h400">
+    <div class="leftblock"></div>
+    <div class="rightblock"></div>
+</div>
+<div class="w800 h100"></div>
+</body>
+</html>
