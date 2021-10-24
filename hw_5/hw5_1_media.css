@@ -1,0 +1,42 @@
+@media screen and (max-width: 500px) {
+    .secondblock {
+        width: 70%;
+    }
+
+    .h600.bg_light {
+        height: 1000px;
+    }
+
+    .blocksinside {
+        height: 800px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .square {
+        height: 100px;
+        width: 100px;
+    }
+
+    .square + div {
+        width: 150px;
+        text-align: center;
+    }
+
+    .h600.bg_dark {
+        height: 800px;
+    }
+
+    .box {
+        height: 200px;
+        width: 50%;
+    }
+
+    .blocksinside > div {
+        width: 50%;
+    }
+
+}
+

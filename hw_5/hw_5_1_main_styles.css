@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.h600 {
+    height: 600px;
+}
+
+.bg_light {
+    background: lightgrey;
+}
+
+.bg_dark {
+    background: darkslategrey;
+}
+
+.display {
+    display: flex;
+}
+
+.border {
+    border: 1px solid cornflowerblue;
+}
+
+.secondblock {
+    height: 90%;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.blocksinside {
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+}
+
+.blocksinside > div {
+    width: 25%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.radius {
+    border-radius: 30px;
+}
+
+.square {
+    width: 85%;
+    height: 60%;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.radius50 {
+    border-radius: 50%;
+}
