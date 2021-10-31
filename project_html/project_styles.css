@@ -217,3 +217,128 @@ margin-top: 15px;
     padding: 1em;
     box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
 }
+#carouselWithCaptions {
+    height: 300px;
+    width: 850px;
+    border-radius: 30px;
+}
+.wrapper {
+    margin-top: 30px
+}
+.carousel-caption > img {
+    width: 350px;
+    height: 280px;
+}
+.carousel-caption {
+    text-align: start;
+}
+.carousel-caption h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 35px;
+    color: #0A1A2C;
+}
+.under_title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+}
+.price_one {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #005BB9;
+}
+.price_two {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+
+}
+.cart_btn {
+    width: 160px;
+    height: 49px;
+    left: 428px;
+    top: 515px;
+    background: #005BB9;
+    border-radius: 6px;
+    border: #005BB9;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.cart_btn img {
+    height: 17px;
+    width: 17px;
+    margin-right: 8px;
+}
+.card {
+    width: 350px;
+    height: 160px;
+    border-radius: 10px;
+    background: #F4F5FA;
+    border: none;
+}
+.card_photo p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+}
+.card img {
+    width: 80px;
+    height: 74px;
+}
+.item_price img {
+    height: 15px;
+    width: 15px;
+}
+.card_text_1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #0A1A2C;
+}
+.card_text_2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+}
+.actual {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFB800;
+    align-items: end;
+}
+.earlier {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.item_price button {
+    width: 40px;
+    height: 40px;
+    background: #005BB9;
+    border-radius: 6px;
+    border: #005BB9;
+
+}
