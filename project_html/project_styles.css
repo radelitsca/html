@@ -1,7 +1,12 @@
+.df {
+    display: flex;
+}
+
 .mp {
     padding-right: 50px;
     padding-left: 50px;
 }
+
 .navbar {
     height: 36px;
     width: 100%;
@@ -11,30 +16,28 @@
     line-height: 16px;
     color: #FFFFFF;
 }
+
 .nav-link {
     display: inline;
     color: #FFFFFF;
 }
+
 .location {
     height: 20px;
     width: 14px;
-    margin-right: 7px;
 }
-.header_left {
-    column-gap: 15px;
-}
-.header_right {
-    column-gap: 20px;
-}
-.logo img{
+
+.logo img {
     height: 71px;
     width: 66px;
     margin-right: 12px;
 }
+
 .time img {
     height: 32px;
     width: 32px;
 }
+
 .loc img {
     height: 32px;
     width: 23px;
@@ -45,6 +48,7 @@
     width: 12px;
     margin-left: 16px;
 }
+
 .logo_name h1 {
     font-style: normal;
     font-weight: bold;
@@ -57,6 +61,7 @@
     height: 83px;
     width: 246px;
 }
+
 .logo_name p {
     font-style: normal;
     font-weight: 500;
@@ -66,10 +71,16 @@
     width: 180px;
     flex-wrap: wrap;
 }
+
+.whatsapp_mobile {
+    display: none;
+}
+
 .time {
     height: 40px;
     width: 258px;
 }
+
 .time p {
     font-style: normal;
     font-weight: 500;
@@ -79,6 +90,7 @@
     color: #0F2438;
     margin-left: 10px;
 }
+
 .loc p {
     font-style: normal;
     font-weight: 500;
@@ -86,14 +98,16 @@
     line-height: 16px;
     color: #0F2438;
     margin-left: 10px;
-margin-top: 8px;
+    margin-top: 8px;
 }
+
 .whatsapp {
     width: 204px;
     height: 30px;
     background: #E1EFD0;
     border-radius: 2px;
 }
+
 .whatsapp p {
     margin-top: 12px;
     font-style: normal;
@@ -104,13 +118,16 @@ margin-top: 8px;
     color: #000000;
     margin-left: 6px;
 }
+
 .phone {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height:   10px;
+    line-height: 10px;
     color: #0F2438;
+    text-align: right;
 }
+
 .phone + p {
     font-style: normal;
     font-weight: 500;
@@ -119,15 +136,18 @@ margin-top: 8px;
     color: #0F2438;
     text-align: right;
 }
+
 .contacts {
     height: 83px;
-margin-top: 15px;
+    margin-top: 15px;
     background: white;
 }
+
 .search_menu {
     margin-top: 25px;
     background: white;
 }
+
 .search_button_1 {
     width: 164px;
     height: 53px;
@@ -137,15 +157,18 @@ margin-top: 15px;
     align-items: center;
     column-gap: 12px;
 }
+
 .button_lines {
     flex-direction: column;
     row-gap: 3px;
 }
-.line {
+
+.line_1 {
     height: 3px;
     width: 20px;
     background: white;
 }
+
 .search_button_text {
     font-style: normal;
     font-weight: bold;
@@ -153,6 +176,7 @@ margin-top: 15px;
     line-height: 21px;
     color: #FFFFFF;
 }
+
 .form-control {
     width: 500px;
     height: 53px;
@@ -162,6 +186,7 @@ margin-top: 15px;
     line-height: 16px;
     color: #C2C5DA;
 }
+
 .btn-outline-secondary {
     height: 53px;
     width: 101px;
@@ -174,23 +199,27 @@ margin-top: 15px;
     line-height: 17px;
     color: #FFFFFF;
 }
+
 .sign_in img {
     height: 28px;
     width: 28px;
 }
+
 .sign_in div {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-  margin-left: 10px;
+    margin-left: 10px;
     color: #0F2438;
 }
+
 .liked_products img {
     height: 25px;
     width: 28px;
     margin-right: 10px;
 }
+
 .liked_products div {
     font-style: normal;
     font-weight: 500;
@@ -199,11 +228,13 @@ margin-top: 15px;
     text-align: center;
     color: #0F2438;
 }
+
 .shopping_cart img {
     height: 28px;
     width: 28px;
     margin-right: 10px;
 }
+
 .shopping_cart div {
     font-style: normal;
     font-weight: normal;
@@ -213,25 +244,30 @@ margin-top: 15px;
     flex-wrap: wrap;
     color: #0F2438;
 }
+
 .shadow {
     padding: 1em;
     box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
 }
+
 #carouselWithCaptions {
-    height: 300px;
-    width: 850px;
+    width: 70%;
     border-radius: 30px;
 }
+
 .wrapper {
     margin-top: 30px
 }
+
 .carousel-caption > img {
     width: 350px;
     height: 280px;
 }
+
 .carousel-caption {
     text-align: start;
 }
+
 .carousel-caption h5 {
     font-style: normal;
     font-weight: 500;
@@ -239,6 +275,7 @@ margin-top: 15px;
     line-height: 35px;
     color: #0A1A2C;
 }
+
 .under_title {
     font-style: normal;
     font-weight: normal;
@@ -247,6 +284,7 @@ margin-top: 15px;
     text-decoration-line: underline;
     color: #717171;
 }
+
 .price_one {
     font-style: normal;
     font-weight: 500;
@@ -254,6 +292,7 @@ margin-top: 15px;
     line-height: 35px;
     color: #005BB9;
 }
+
 .price_two {
     font-style: normal;
     font-weight: normal;
@@ -263,11 +302,10 @@ margin-top: 15px;
     color: #C2C5DA;
 
 }
+
 .cart_btn {
     width: 160px;
     height: 49px;
-    left: 428px;
-    top: 515px;
     background: #005BB9;
     border-radius: 6px;
     border: #005BB9;
@@ -277,18 +315,21 @@ margin-top: 15px;
     line-height: 19px;
     color: #FFFFFF;
 }
+
 .cart_btn img {
     height: 17px;
     width: 17px;
     margin-right: 8px;
 }
+
 .card {
-    width: 350px;
-    height: 160px;
+    width: 90%;
+    height: 48%;
     border-radius: 10px;
     background: #F4F5FA;
     border: none;
 }
+
 .card_photo p {
     font-style: normal;
     font-weight: 500;
@@ -296,14 +337,17 @@ margin-top: 15px;
     line-height: 16px;
     color: #0F2438;
 }
+
 .card img {
     width: 80px;
     height: 74px;
 }
+
 .item_price img {
     height: 15px;
     width: 15px;
 }
+
 .card_text_1 {
     font-style: normal;
     font-weight: 500;
@@ -311,6 +355,7 @@ margin-top: 15px;
     line-height: 17px;
     color: #0A1A2C;
 }
+
 .card_text_2 {
     font-style: normal;
     font-weight: normal;
@@ -318,6 +363,7 @@ margin-top: 15px;
     line-height: 14px;
     color: #525252;
 }
+
 .actual {
     font-style: normal;
     font-weight: bold;
@@ -326,6 +372,7 @@ margin-top: 15px;
     color: #FFB800;
     align-items: end;
 }
+
 .earlier {
     font-style: normal;
     font-weight: normal;
@@ -334,6 +381,7 @@ margin-top: 15px;
     text-decoration-line: line-through;
     color: #C2C5DA;
 }
+
 .item_price button {
     width: 40px;
     height: 40px;
@@ -342,22 +390,26 @@ margin-top: 15px;
     border: #005BB9;
 
 }
+
 body {
     background: white;
 }
+
 .wrap {
-   column-gap: 14px;
+    column-gap: 14px;
     margin-top: 70px;
     margin-bottom: 70px;
 }
+
 .block {
-    width: 400px;
+    width: 32%;
     height: 184px;
     background: #FFFFFF;
     border: 1px solid #E1E5F8;
     box-sizing: border-box;
     border-radius: 6px;
 }
+
 .block div {
     font-style: normal;
     font-weight: 500;
@@ -366,6 +418,7 @@ body {
     align-items: center;
     color: #0A1A2C;
 }
+
 .block p {
     font-style: normal;
     font-weight: 500;
@@ -373,6 +426,7 @@ body {
     line-height: 24px;
     color: #0A1A2C;
 }
+
 .block button {
     width: 86px;
     height: 26px;
@@ -386,11 +440,13 @@ body {
     color: #FFFFFF;
     border: #005BB9;
 }
+
 .block > div {
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
 }
+
 .buy_menu button:nth-child(1) {
     width: 241px;
     height: 45px;
@@ -403,6 +459,7 @@ body {
     color: #FFFFFF;
     border: none;
 }
+
 .buy_menu button:nth-child(2) {
     width: 123px;
     height: 45px;
@@ -415,6 +472,7 @@ body {
     line-height: 23px;
     color: #005BB9;
 }
+
 .buy_menu button:nth-child(3) {
     width: 229px;
     height: 45px;
@@ -427,25 +485,30 @@ body {
     line-height: 23px;
     color: #005BB9;
 }
+
 .buy_menu {
     margin-bottom: 11px;
 }
+
 .card_2 {
-    width: 280px;
-    height: 400px;
+    width: 25%;
     background: white;
 }
+
 .card_2 > img {
-    width: 250px;
-    height: 235px;
+    width: 90%;
+    height: 50%;
 }
+
 .mark {
     background: white;
 }
+
 .mark img {
     height: 16px;
     width: 16px;
 }
+
 .point {
     font-style: normal;
     font-weight: 500;
@@ -453,6 +516,7 @@ body {
     line-height: 16px;
     color: #FFB800;
 }
+
 .point + div {
     font-style: normal;
     font-weight: normal;
@@ -460,6 +524,7 @@ body {
     line-height: 16px;
     color: #B0B0B0;
 }
+
 .card-title_2 {
     font-style: normal;
     font-weight: 500;
@@ -467,6 +532,7 @@ body {
     line-height: 20px;
     color: #0A1A2C;
 }
+
 .pr_p1 {
     font-style: normal;
     font-weight: normal;
@@ -475,6 +541,7 @@ body {
     color: #000000;
     margin-top: 40px;
 }
+
 .pr_p2 {
     font-style: normal;
     font-weight: normal;
@@ -484,10 +551,12 @@ body {
     color: #005BB9;
     margin-top: 40px;
 }
+
 .cart_img {
     height: 17px;
     width: 17px;
 }
+
 .buy button {
     width: 160px;
     height: 49px;
@@ -497,14 +566,15 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
     color: #FFFFFF;
     border: none;
 }
+
 .like, .scale {
     height: 18px;
     width: 21px;
 }
+
 .y_price {
     font-style: normal;
     font-weight: bold;
@@ -512,6 +582,7 @@ body {
     line-height: 10px;
     color: #FFB800;
 }
+
 .l_price {
     font-style: normal;
     font-weight: normal;
@@ -520,10 +591,12 @@ body {
     text-decoration-line: line-through;
     color: #C2C5DA;
 }
+
 .w_card_text {
-    width: 200px;
+    width: 90%;
     margin-bottom: -15px;
 }
+
 .line {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -532,3 +605,132 @@ body {
     width: 90%;
     margin-left: 55px;
 }
+
+.scroll {
+    margin-top: 60px;
+    width: 187px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #005BB9;
+    margin-bottom: 80px;
+}
+
+.news_line {
+    width: 100%;
+    height: 9px;
+    background: silver;
+}
+
+.news_img {
+    margin-top: -9px;
+}
+
+.dates {
+    width: 106px;
+    height: 22px;
+    background: #0C1A2A;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.news_header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.mr {
+    margin-right: 270px;
+}
+
+.mr_2 {
+    margin-right: 200px;
+}
+
+.news_link > div {
+    width: 23%;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #242424;
+    margin-bottom: 100px;
+}
+
+.news_link p {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+
+.footer {
+    height: 380px;
+    background: #0C1A2A;
+    padding-top: 36px;
+}
+
+.catalogue {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.catalogue div {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.catalogue h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+}
+
+.n_visible {
+    font-size: 18px;
+    line-height: 21px;
+    color: #858CAB;
+}
+
+.visible {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.e-mail {
+    height: 40px;
+    width: 90%;
+    align-self: center;
+
+}
+
+.input, .input_btn {
+    height: 40px;
+    border: none;
+}
+
+.ending {
+    font-size: 16px;
+    line-height: 20px;
+    color: #737E9B;
+    background: #0C1A2A;
+}
+
