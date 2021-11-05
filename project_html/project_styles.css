@@ -50,7 +50,6 @@
 }
 
 .logo_name h1 {
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
@@ -63,7 +62,6 @@
 }
 
 .logo_name p {
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
@@ -82,7 +80,6 @@
 }
 
 .time p {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 10px;
@@ -92,7 +89,6 @@
 }
 
 .loc p {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -110,8 +106,6 @@
 
 .whatsapp p {
     margin-top: 12px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     text-align: right;
@@ -120,7 +114,6 @@
 }
 
 .phone {
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 10px;
@@ -129,7 +122,6 @@
 }
 
 .phone + p {
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 7px;
@@ -170,7 +162,6 @@
 }
 
 .search_button_text {
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
@@ -180,8 +171,6 @@
 .form-control {
     width: 500px;
     height: 53px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     color: #C2C5DA;
@@ -206,7 +195,6 @@
 }
 
 .sign_in div {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -221,7 +209,6 @@
 }
 
 .liked_products div {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -236,8 +223,6 @@
 }
 
 .shopping_cart div {
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     width: 69px;
@@ -269,7 +254,6 @@
 }
 
 .carousel-caption h5 {
-    font-style: normal;
     font-weight: 500;
     font-size: 23px;
     line-height: 35px;
@@ -277,8 +261,6 @@
 }
 
 .under_title {
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 23px;
     text-decoration-line: underline;
@@ -286,7 +268,6 @@
 }
 
 .price_one {
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 35px;
@@ -294,8 +275,6 @@
 }
 
 .price_two {
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 26px;
     text-decoration-line: line-through;
@@ -309,7 +288,6 @@
     background: #005BB9;
     border-radius: 6px;
     border: #005BB9;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -331,7 +309,6 @@
 }
 
 .card_photo p {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -349,7 +326,6 @@
 }
 
 .card_text_1 {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 17px;
@@ -357,15 +333,12 @@
 }
 
 .card_text_2 {
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #525252;
 }
 
 .actual {
-    font-style: normal;
     font-weight: bold;
     font-size: 17px;
     line-height: 20px;
@@ -374,8 +347,6 @@
 }
 
 .earlier {
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 19px;
     text-decoration-line: line-through;
@@ -411,7 +382,6 @@ body {
 }
 
 .block div {
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
@@ -420,7 +390,6 @@ body {
 }
 
 .block p {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -510,7 +479,6 @@ body {
 }
 
 .point {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -518,15 +486,12 @@ body {
 }
 
 .point + div {
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     color: #B0B0B0;
 }
 
 .card-title_2 {
-    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -534,8 +499,6 @@ body {
 }
 
 .pr_p1 {
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 15px;
     color: #000000;
@@ -543,8 +506,6 @@ body {
 }
 
 .pr_p2 {
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 15px;
     text-decoration-line: underline;
@@ -562,7 +523,6 @@ body {
     height: 49px;
     background: #005BB9;
     border-radius: 6px;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -576,7 +536,6 @@ body {
 }
 
 .y_price {
-    font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 10px;
@@ -584,8 +543,6 @@ body {
 }
 
 .l_price {
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 30px;
     text-decoration-line: line-through;
@@ -645,7 +602,6 @@ body {
 }
 
 .news_header {
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
@@ -733,4 +689,3 @@ body {
     color: #737E9B;
     background: #0C1A2A;
 }
-
