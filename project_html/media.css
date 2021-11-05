@@ -3,6 +3,12 @@
         padding-right: 10px;
         padding-left: 10px;
     }
+    .up_down_wrap {
+        height: 150px;
+    }
+    .mb_2 {
+        margin-top: 20px;
+    }
 
     .sign_in, .liked_products, .shopping_cart, .time, .loc, .header_right, .location, .info, .coop {
         display: none;
@@ -261,7 +267,7 @@
 
     .card_2 {
         width: 50%;
-        height: 266px;
+        height: 350px;
     }
 
     .card_2 > img {
@@ -594,7 +600,9 @@
         column-gap: 10px;
         align-items: center !important;
     }
-
+.mt_3 {
+    margin-top: 5px;
+}
     .mt_10 {
         margin-top: 30px;
     }
